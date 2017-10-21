@@ -52,7 +52,7 @@ Vue.confirm({
 
 ### Params
 
-`Alert`
+#### Alert
 
 `props`
 - `show`: whether to show alert,type is Boolean
@@ -65,7 +65,7 @@ Vue.confirm({
 - `onOpen`: event on alert show,type is Function
 - `onClose`: event after alert close,type is Function
 
-`Confirm`
+#### Confirm
 
 `props`
 - `show`: whether to show confirm,type is Boolean
@@ -80,7 +80,7 @@ Vue.confirm({
 - `onOpen`: event on confirm show,type is Function
 - `onClose`: event after confirm close,type is Function
 
-`Prompt`
+#### Prompt
 
 `props`
 - `show`: whether to show prompt,type is Boolean
