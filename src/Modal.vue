@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="mutableShow">
     <overlay :show="mutableShow" :click="overlayClick"></overlay>
     <transition name="modal">
       <div class="modal" v-if="mutableShow" @touchmove="touchmove">
@@ -25,16 +25,8 @@ export default {
   name:'modal',
   watch:{
     show:function(val){
-      console.log('show ' + val)
       this.mutableShow = val;
     }
-    // show:{
-    //   immediate:true,
-    //   handler:function(val){
-    //      console.log('show ' + val)
-    //      this.mutableShow = val;
-    //   }
-    // }
   },
   components: {
     Overlay

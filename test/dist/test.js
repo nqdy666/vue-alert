@@ -103,7 +103,7 @@ new Vue({
         content: 'alert弹框',
         okText: '确定',
         onOk: function onOk() {
-          alert('ok');
+          console.log('ok');
         }
       });
       this.$confirm({
@@ -112,11 +112,11 @@ new Vue({
         content: '确定要发大财吗?',
         okText: '确定',
         onOk: function onOk() {
-          alert('ok');
+          console.log('ok');
         },
         cancelText: '取消',
         onCancel: function onCancel() {
-          alert('cancel');
+          console.log('cancel');
         }
       });
       Vue.prompt({
@@ -126,11 +126,11 @@ new Vue({
         okText: '确定',
         input: '',
         onOk: function onOk() {
-          alert('ok');
+          console.log('ok');
         },
         cancelText: '取消',
         onCancel: function onCancel() {
-          alert('cancel');
+          console.log('cancel');
         }
       });
     }

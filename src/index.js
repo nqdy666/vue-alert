@@ -14,14 +14,9 @@ aCom = aCom.map(item => {
             const oCache = {};
 
             function modal(options = {show:true}){
-                const com = oCache[options.id] || (oCache[options.id] = new sub);
-                if(!com.$el){
-                    const vm = com.$mount();
-                    document.querySelector(options.parent || 'body').appendChild(vm.$el);
-                }
-                if(options.content){
-                    options.show = true;
-                }
+                const com = new sub;
+                const vm = com.$mount();
+                document.querySelector(options.parent || 'body').appendChild(vm.$el);
                 assign(com,options);
             }
             Vue[item.name] = Vue.prototype['$' + item.name] = modal;
