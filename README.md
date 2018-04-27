@@ -98,4 +98,6 @@ Vue.confirm({
 
 ### Preview
 
-![alert image](./doc/alert.png)
+![alert image](./doc/alert.png)<br/>
+![confirm image](./doc/confirm.png)<br/>
+![prompt image](./doc/prompt.png)
