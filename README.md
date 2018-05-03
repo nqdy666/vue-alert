@@ -10,13 +10,13 @@ yarn add vue-alert2
 
 ### QuickStart
 ```javascript
-require('vue-alert/dist/vue-alert.css');
+require('vue-alert2/dist/vue-alert.css');
 
 // in ES6 modules
-import {Alert,Confirm,Prompt} from 'vue-alert';
+import {Alert,Confirm,Prompt} from 'vue-alert2';
 
 // in CommonJS
-const {Alert,Confirm,Prompt} = require('vue-alert');
+const {Alert,Confirm,Prompt} = require('vue-alert2');
 
 // in Global variable
 const {Alert,Confirm,Prompt} = VueAlert;

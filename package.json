@@ -1,6 +1,6 @@
 {
   "name": "vue-alert2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a vue alert component",
   "main": "dist/vue-alert.js",
   "scripts": {
